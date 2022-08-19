@@ -1,0 +1,7 @@
+.intro {
+  background: url("../images/header-bg.jpeg") no-repeat center center;
+  background-size: cover;
+  #{&}__content{
+    min-height: 46rem;
+  }
+}
