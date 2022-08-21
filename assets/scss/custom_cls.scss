@@ -6,3 +6,9 @@
 .mb-100 {
   margin-bottom: rem(100px);
 }
+
+.bg-background-img{
+  background-image: url("#{$img-path}form_bg.png");
+}
+
+
