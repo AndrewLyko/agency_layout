@@ -1,5 +1,12 @@
 //variables
 @import "variables";
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "./function";
+
+@import "./spacing";
+@import "./custom_cls";
+
 //components
 @import "intro";

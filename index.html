@@ -6,7 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./assets/css/main.css">
-    <title>Document</title>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <title>Agency_layout</title>
 </head>
 <body>
 
@@ -53,14 +54,96 @@
 <header class="intro">
     <div class="container">
         <div class="row">
-            <div class="col d-flex justify-content-center flex-nowrap flex-column align-items-center intro__content">
-                <h2 class="text-white">Welcome To Our Studio!</h2>
-                <h1 class="text-uppercase text-white"> It's nice to meet you!</h1>
-                <button class="btn btn-primary btn-lg text-uppercase">Tell me more</button>
+            <div class="col d-flex flex-nowrap flex-column justify-content-center align-items-center intro__content text-center">
+                <h2 class="text-white hdl-sub-intro">Welcome To Our Studio!</h2>
+                <h1 class="text-uppercase text-white hdl-intro">It's nice to meet you</h1>
+                <button type="button"
+                        class="btn btn-primary py-1-25 px-2-25 fw-bold btn-lg text-uppercase text-white">Tell me more
+                </button>
             </div>
         </div>
     </div>
 </header>
+
+<main>
+    <section class="container page-section">
+        <div class="row">
+            <div class="col text-center">
+                <h2 class="title text-uppercase">Services</h2>
+                <h3 class="subtitle text-muted">Lorem ipsum dolor sit amet.</h3>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-md-4 d-flex flex-column align-items-center">
+            <span class="fa-stack fa-4x fa-circle d-flex justify-content-center align-items-center mb-04">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            </span>
+                <h4 class="my-3">E-Commerce</h4>
+                <p class="text-muted lh-175">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quasi aperiam ea necessitatibus
+                    debitis laudantium dicta cupiditate dolore culpa eligendi.
+                </p>
+            </div>
+
+            <div class="col-md-4 d-flex flex-column align-items-center">
+            <span class="fa-stack fa-4x fa-circle d-flex justify-content-center align-items-center mb-04">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+            </span>
+                <h4 class="my-3">Responsive Design</h4>
+                <p class="text-muted lh-175">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet esse vero, dolor sequi
+                    ratione nostrum sed quis illo. Illo.
+                </p>
+            </div>
+
+            <div class="col-md-4 d-flex flex-column align-items-center">
+            <span class="fa-stack fa-4x fa-circle d-flex justify-content-center align-items-center mb-04">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+            </span>
+                <h4 class="my-3">Web Security</h4>
+                <p class="text-muted lh-175">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum officia recusandae praesentium illum
+                    distinctio blanditiis possimus obcaecati at aut rem?
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light">
+
+        <div class="container">
+            <div class="col text-center">
+                <h2 class="title text-uppercase">Portfolio</h2>
+                <h3 class="subtitle text-muted">Lorem ipsum dolor sit amet.</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-item__link">
+                            <div class="portfolio-item__hover"></div>
+                            <img src="./assets/images/portfolio_1.jpeg" alt="portfolio_image_1"
+                                 class="portfolio-item__img img-fluid">
+                        </a>
+                        <div class="portfolio-item__caption text-center">
+                            <h4 class="portfolio-item__hdl">Threads</h4>
+                            <p class="portfolio-item__content">Illustration</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+</main>
 
 </body>
 </html>
