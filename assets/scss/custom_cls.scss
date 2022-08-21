@@ -1,22 +1,4 @@
-.fa-stack {
-  height: 2em;
-  width: 2em;
-  position: relative;
-}
-
-.fa-4x{
-  font-size: 4em;
-}
-
-.fa-circle {
-  background: $primary;
-  border-radius: 50%;
-}
-
-.svg-inline--fa {
-  width: rem(72px);
-  height: rem(64px);
-  path {
-    fill: $white;
-  }
+.modal-content {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
