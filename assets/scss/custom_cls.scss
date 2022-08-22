@@ -7,8 +7,52 @@
   margin-bottom: rem(100px);
 }
 
-.bg-background-img{
+.bg-background-img {
   background-image: url("#{$img-path}form_bg.png");
 }
 
+.page-section {
+  padding: 6rem 0;
+}
 
+.title {
+  font-family: "Montserrat bold", sans-serif;
+  font-size: rem(40px);
+}
+
+.nav-link {
+  font-family: "Montserrat regular", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-family: "Roboto slab", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: rem(16px);
+  margin-bottom: rem(64px);
+  line-height: 1.2;
+}
+
+h1, h2, h4 {
+  font-family: "Montserrat bold", sans-serif;
+}
+
+p {
+  font-family: "Roboto slab", serif;
+}
+
+.hdl-intro {
+  font-family: "Montserrat bold", sans-serif;
+  font-size: rem(72px);
+  line-height: 1;
+  margin-bottom: rem(64px);
+}
+
+.hdl-sub-intro {
+  font-family: "Roboto slab", serif;
+  font-style: italic;
+  margin-bottom: rem(32px);
+  font-size: rem(36px);
+
+}
