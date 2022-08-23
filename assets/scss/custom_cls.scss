@@ -54,5 +54,16 @@ p {
   font-style: italic;
   margin-bottom: rem(32px);
   font-size: rem(36px);
+}
 
+.btn-social{
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.member-img {
+  width: 14rem;
+  height: 14rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
 }
