@@ -2,6 +2,11 @@
   background: url("../images/header-bg.jpeg") no-repeat center center;
   background-size: cover;
   #{&}__content{
-    min-height: 46rem;
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    @include media-breakpoint-up(md) {
+      padding-top: 17rem;
+      padding-bottom: 12.5rem;
+    }
   }
 }
